@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Mohamed El-Sayed Sanad | Network Support Engineer & CCNA</title>
+  <meta name="title" content="Mohamed El-Sayed Sanad | Network Support Engineer & CCNA">
+  <meta name="description" content="Portfolio of Mohamed El-Sayed Mohamed Sanad. Scientific Computing student at Benha University and aspiring Network Support Engineer specializing in CCNA, Cisco IOS, Routing, and Network Troubleshooting.">
+  <meta name="author" content="Mohamed El-Sayed Mohamed Sanad">
+  <meta name="keywords" content="Mohamed Sanad, Network Support Engineer, CCNA, Cisco Packet Tracer, Routing, VLAN, ACL, NAT, Benha University, Scientific Computing">
+
+  <!-- Google Fonts: Inter & Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand" aria-label="Mohamed Sanad Homepage">
+        <div class="brand-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Mohamed Sanad</span>
+          <span class="brand-badge">CCNA &bull; Network Support</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#focus" class="nav-link">Focus</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Credentials</a></li>
+          <li><a href="#objective" class="nav-link">Objective</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Toggle & Mobile Menu Trigger -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light mode" title="Toggle theme">
+          <!-- Moon Icon (Dark Mode Active) -->
+          <svg class="theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode Active) -->
+          <svg class="theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button id="mobile-toggle" class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <div class="hamburger-icon">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       MAIN CONTENT CONTAINER
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- =======================================================================
+         1. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="hero">
+      <canvas id="network-canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span>Aspiring Network Support Engineer</span>
+          </div>
+
+          <h1 class="hero-title">Mohamed El-Sayed Mohamed Sanad</h1>
+
+          <div class="hero-subtitle">
+            <span>Network Support Engineer</span>
+            <span class="separator">|</span>
+            <span>CCNA</span>
+            <span class="separator">|</span>
+            <span>Scientific Computing Student</span>
+          </div>
+
+          <p class="hero-intro">
+            Scientific Computing student passionate about Networking, Routing, and Network Troubleshooting.
+          </p>
+
+          <div class="hero-badges">
+            <span class="badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Cisco CCNA
+            </span>
+            <span class="badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              Packet Tracer Labs
+            </span>
+            <span class="badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              Benha University (2027)
+            </span>
+            <span class="badge-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              NTI Trained
+            </span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Networking Terminal Card Mockup -->
+        <div class="hero-terminal-card reveal" aria-label="Interactive Cisco IOS Diagnostic Terminal Preview">
+          <div class="terminal-header">
+            <div class="terminal-controls">
+              <span class="control-dot red"></span>
+              <span class="control-dot yellow"></span>
+              <span class="control-dot green"></span>
+            </div>
+            <div class="terminal-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+              <span>cisco-ios-session &bull; core-r1#</span>
+            </div>
+            <span class="terminal-badge">LIVE TOPOLOGY</span>
+          </div>
+          <div class="terminal-body">
+            <div class="term-line">
+              <span class="term-prompt">Core-R1#</span> <span class="term-cmd">show ip interface brief</span>
+            </div>
+            <div class="term-line term-out">
+              Interface&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IP-Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Status&nbsp;&nbsp;&nbsp;&nbsp;Protocol
+            </div>
+            <div class="term-line term-out">
+              Gig0/0/0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192.168.10.1&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>
+            </div>
+            <div class="term-line term-out">
+              Gig0/0/1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.1.1.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>
+            </div>
+            <div class="term-line term-out">
+              Vlan10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;172.16.10.1&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="term-status-up">up</span>
+            </div>
+            <div class="term-line" style="margin-top: 10px;">
+              <span class="term-prompt">Core-R1#</span> <span class="term-cmd">ping 10.1.1.2 repeat 5</span>
+            </div>
+            <div class="term-line term-out">
+              Type escape sequence to abort.
+            </div>
+            <div class="term-line term-out">
+              Sending 5, 100-byte ICMP Echos to 10.1.1.2:
+            </div>
+            <div class="term-line term-success">
+              !!!!!
+            </div>
+            <div class="term-line term-out">
+              Success rate is <span class="term-success">100 percent (5/5)</span>, round-trip min/avg/max = 1/2/4 ms
+            </div>
+            <div class="term-line" style="margin-top: 10px;">
+              <span class="term-prompt">Core-R1#</span> <span class="term-cmd">show ip route static</span>
+            </div>
+            <div class="term-line term-info">
+              S*&nbsp;&nbsp;0.0.0.0/0 [1/0] via 10.1.1.2 [Active Gateway]
+            </div>
+            <div class="term-line" style="margin-top: 8px;">
+              <span class="term-prompt">Core-R1#</span> <span class="term-cursor"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         2. ABOUT ME SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            <span>Background &amp; Profile</span>
+          </div>
+          <h2 class="section-title">About <span>Me</span></h2>
+          <p class="section-subtitle">
+            Scientific Computing undergraduate dedicated to building resilient network infrastructures and mastering Cisco technologies.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profile Card with Photo Placeholder -->
+          <div class="about-photo-wrapper reveal">
+            <div class="about-photo-frame">
+              <img src="assets/profile.jpg" alt="Mohamed El-Sayed Mohamed Sanad - Aspiring Network Support Engineer" class="about-photo" loading="lazy">
+              <div class="photo-badge-floating">
+                <div class="photo-badge-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <div>
+                  <div class="photo-badge-title">Network Support &amp; CCNA</div>
+                  <div class="photo-badge-subtitle">Benha University &bull; Fourth Year</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Narrative & Practical Capabilities -->
+          <div class="about-narrative reveal">
+            <p class="about-lead">
+              I am a fourth-year Scientific Computing student at Benha University, Faculty of Computers and Artificial Intelligence, with expected graduation in 2027.
+            </p>
+
+            <p class="about-text">
+              My primary technical focus is Networking and Cisco technologies (CCNA). I enjoy building networks, understanding how devices communicate across layers, configuring routing, and troubleshooting connectivity problems. I take pride in investigating network issues and methodically identifying their root causes.
+            </p>
+
+            <p class="about-text">
+              Through extensive practical lab work in Cisco Packet Tracer and formal NTI training, I have developed solid foundational skills in configuring devices, securing interfaces, and optimizing local and routed environments.
+            </p>
+
+            <!-- Capabilities Card -->
+            <div class="capabilities-block">
+              <div class="capabilities-title">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                <span>Practical Lab Competencies:</span>
+              </div>
+              <ul class="capabilities-list">
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Build basic network topologies independently</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Configure PCs, switches, and routers via Cisco IOS</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Connect multiple routers &amp; configure static routing</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Configure IP addressing, subnets &amp; default gateways</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Segment traffic with VLANs &amp; Inter-VLAN routing</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Configure DHCP services &amp; dynamic host addressing</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implement Access Control Lists (ACL) &amp; NAT</span>
+                </li>
+                <li class="capability-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Troubleshoot connectivity, ping, and traceroute drops</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="about-stats-grid">
+              <div class="stat-card">
+                <div class="stat-value">4th Year</div>
+                <div class="stat-label">Benha University</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">CCNA</div>
+                <div class="stat-label">Cisco Focus</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">NTI</div>
+                <div class="stat-label">Practical Training</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-value">2027</div>
+                <div class="stat-label">Expected Graduation</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. TECHNICAL SKILLS SECTION
+         ======================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            <span>Technical Capabilities</span>
+          </div>
+          <h2 class="section-title">Technical <span>Skills</span></h2>
+          <p class="section-subtitle">
+            Core networking proficiencies prioritized for network infrastructure, complemented by programming fundamentals and analytical tools.
+          </p>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Featured Category: Networking (Visual Priority) -->
+          <div class="skills-category-featured reveal">
+            <div class="category-header-featured">
+              <div class="category-title-group">
+                <div class="category-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <div>
+                  <h3 class="category-title">Networking &amp; Cisco Infrastructure</h3>
+                  <p class="category-subtitle">Primary Career Specialization &bull; CCNA Curriculum</p>
+                </div>
+              </div>
+              <div class="featured-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>Primary Focus</span>
+              </div>
+            </div>
+
+            <div class="skills-grid-featured">
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                <span>CCNA</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect></svg>
+                <span>Cisco Networking</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <span>Cisco Packet Tracer</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                <span>Routing</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                <span>Static Routing</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1"></path><path d="M18 8h4a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4"></path></svg>
+                <span>VLANs</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><line x1="1.05" y1="12" x2="7" y2="12"></line><line x1="17.01" y1="12" x2="22.96" y2="12"></line></svg>
+                <span>DHCP</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                <span>ACL</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                <span>NAT</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <span>IP Addressing</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                <span>Network Troubleshooting</span>
+              </div>
+              <div class="skill-tag highlight">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                <span>Cisco IOS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Other Skill Categories (Programming, Tools, Languages) -->
+          <div class="skills-other-grid">
+            <!-- Programming Skills -->
+            <div class="skill-category-card reveal">
+              <div class="category-card-header">
+                <div class="icon-sm">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3 class="category-card-title">Programming</h3>
+              </div>
+              <div class="skills-pills-wrap">
+                <span class="pill-item">C++</span>
+                <span class="pill-item">Python</span>
+                <span class="pill-item">OOP</span>
+                <span class="pill-item">Data Structures</span>
+                <span class="pill-item">Algorithms</span>
+                <span class="pill-item">Python Basics</span>
+                <span class="pill-item">NumPy</span>
+                <span class="pill-item">Pandas</span>
+              </div>
+            </div>
+
+            <!-- Development Tools -->
+            <div class="skill-category-card reveal">
+              <div class="category-card-header">
+                <div class="icon-sm">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                </div>
+                <h3 class="category-card-title">Development Tools</h3>
+              </div>
+              <div class="skills-pills-wrap">
+                <span class="pill-item">Cisco Packet Tracer</span>
+                <span class="pill-item">Visual Studio Code</span>
+                <span class="pill-item">Visual Studio</span>
+              </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="skill-category-card reveal">
+              <div class="category-card-header">
+                <div class="icon-sm">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                </div>
+                <h3 class="category-card-title">Languages</h3>
+              </div>
+              <div class="skills-pills-wrap">
+                <span class="pill-item">Arabic — Native</span>
+                <span class="pill-item">English — Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills Section -->
+          <div class="soft-skills-block reveal">
+            <h3 class="soft-skills-title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              <span>Professional &amp; Soft Skills</span>
+            </h3>
+            <div class="soft-skills-grid">
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Problem Solving</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Troubleshooting</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Teamwork</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Communication</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Time Management</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Fast Learning</span>
+              </div>
+              <div class="soft-skill-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Working Under Pressure</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         4. WHAT I FOCUS ON SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="focus">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+            <span>Technical Specialization</span>
+          </div>
+          <h2 class="section-title">What I <span>Focus On</span></h2>
+          <p class="section-subtitle">
+            Core areas of ongoing study, lab implementation, and developing expertise in network engineering and infrastructure support.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <!-- Card 1 -->
+          <div class="focus-card reveal">
+            <div class="focus-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+            </div>
+            <h3 class="focus-title">Network Configuration</h3>
+            <p class="focus-desc">
+              Building structured network topologies, configuring switch access &amp; trunk ports, establishing VLANs, setting up router interfaces, and assigning IP schemes via Cisco IOS.
+            </p>
+            <div class="focus-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              <span>IOS &bull; Switch &bull; Router</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="focus-card reveal">
+            <div class="focus-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+            </div>
+            <h3 class="focus-title">Routing &amp; Connectivity</h3>
+            <p class="focus-desc">
+              Configuring static routing across multiple interconnected routers, setting default gateways, verifying hop reachability, and enabling reliable end-to-end communication.
+            </p>
+            <div class="focus-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              <span>Static Routes &bull; Gateways</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="focus-card reveal">
+            <div class="focus-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <h3 class="focus-title">Network Troubleshooting</h3>
+            <p class="focus-desc">
+              Diagnosing connectivity faults, analyzing ping and traceroute outputs, investigating ACL packet drops, correcting DHCP lease failures, and fixing NAT translation errors.
+            </p>
+            <div class="focus-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              <span>Ping &bull; Traceroute &bull; ACL</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="focus-card reveal">
+            <div class="focus-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3 class="focus-title">Cisco Networking Practice</h3>
+            <p class="focus-desc">
+              Continuous hands-on experimentation in Cisco Packet Tracer, simulating realistic enterprise environments to solidify CCNA theory with rigorous practical execution.
+            </p>
+            <div class="focus-tag">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              <span>Packet Tracer &bull; CCNA Labs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. PROJECTS SECTION
+         ======================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+            <span>Real Lab Implementations</span>
+          </div>
+          <h2 class="section-title">Featured <span>Projects</span></h2>
+          <p class="section-subtitle">
+            Authentic academic and lab projects demonstrating hands-on network topologies, routing configurations, and software problem-solving.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Cisco Networking Labs -->
+          <div class="project-card featured-project reveal">
+            <div class="project-header-visual">
+              <span class="project-number">PROJECT 01</span>
+              <div class="project-icon-large">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-badge">Cisco Infrastructure &bull; Packet Tracer</div>
+              <h3 class="project-title">Cisco Networking Labs</h3>
+              <p class="project-desc">
+                A collection of practical networking labs implemented using Cisco Packet Tracer, covering network configuration, routing, VLANs, DHCP, ACL, NAT, IP addressing, multiple routers, and network troubleshooting.
+              </p>
+              
+              <div class="project-modules">
+                <div class="modules-label">Lab Topics Covered:</div>
+                <div class="modules-list">
+                  <span class="module-chip">Multi-Router Topologies</span>
+                  <span class="module-chip">Static Routing</span>
+                  <span class="module-chip">VLAN Segmentation</span>
+                  <span class="module-chip">Inter-VLAN Routing</span>
+                  <span class="module-chip">DHCP Server &amp; Relay</span>
+                  <span class="module-chip">Standard &amp; Extended ACLs</span>
+                  <span class="module-chip">NAT / PAT Setup</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Cisco Packet Tracer</span>
+                <span class="tech-tag">Cisco IOS</span>
+                <span class="tech-tag">Routing</span>
+                <span class="tech-tag">VLAN</span>
+                <span class="tech-tag">DHCP</span>
+                <span class="tech-tag">ACL</span>
+                <span class="tech-tag">NAT</span>
+                <span class="tech-tag">IP Addressing</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn modal-trigger-btn" data-project="cisco" type="button">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <span>Project Available Upon Request</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: C++ Mini Projects -->
+          <div class="project-card reveal">
+            <div class="project-header-visual">
+              <span class="project-number">PROJECT 02</span>
+              <div class="project-icon-large">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-badge">Software Development &bull; Algorithms</div>
+              <h3 class="project-title">C++ Mini Projects</h3>
+              <p class="project-desc">
+                A collection of small C++ projects developed to practice programming fundamentals, problem solving, and basic software development concepts.
+              </p>
+
+              <div class="project-modules">
+                <div class="modules-label">Included Applications:</div>
+                <div class="modules-list">
+                  <span class="module-chip">Calculator</span>
+                  <span class="module-chip">Student Management System</span>
+                  <span class="module-chip">Bank Management System</span>
+                  <span class="module-chip">Library Management System</span>
+                  <span class="module-chip">Simple Game</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">Programming Fundamentals</span>
+                <span class="tech-tag">OOP Concepts</span>
+                <span class="tech-tag">Data Structures</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn modal-trigger-btn" data-project="cpp" type="button">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <span>Project Available Upon Request</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Python Mini Projects -->
+          <div class="project-card reveal">
+            <div class="project-header-visual">
+              <span class="project-number">PROJECT 03</span>
+              <div class="project-icon-large">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path></svg>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-category-badge">Scripting &bull; Problem Solving</div>
+              <h3 class="project-title">Python Mini Projects</h3>
+              <p class="project-desc">
+                A collection of small Python projects developed to practice programming fundamentals, conditional logic, and problem solving.
+              </p>
+
+              <div class="project-modules">
+                <div class="modules-label">Included Applications:</div>
+                <div class="modules-list">
+                  <span class="module-chip">Calculator</span>
+                  <span class="module-chip">Student / Grades Management</span>
+                  <span class="module-chip">Login / Registration System</span>
+                </div>
+              </div>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Data Structures</span>
+                <span class="tech-tag">Authentication Logic</span>
+                <span class="tech-tag">File Handling</span>
+              </div>
+
+              <div class="project-footer">
+                <button class="project-btn modal-trigger-btn" data-project="python" type="button">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <span>Project Available Upon Request</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. PRACTICAL EXPERIENCE SECTION (Vertical Timeline)
+         ======================================================================= -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            <span>Hands-on Track Record</span>
+          </div>
+          <h2 class="section-title">Practical <span>Experience</span></h2>
+          <p class="section-subtitle">
+            A progression of hands-on academic training, technical certifications labs, and software implementation.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Timeline Item 1: Cisco Packet Tracer Networking Labs -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Cisco Packet Tracer Networking Labs</h3>
+                <span class="timeline-badge">Academic &amp; Lab Practice</span>
+              </div>
+              <div class="timeline-org">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect></svg>
+                <span>Practical Network Topology Simulation</span>
+              </div>
+              <p class="timeline-desc">
+                Designed, configured, and simulated diverse network topologies independently. Successfully configured multi-router interconnects, VLAN segmentation, inter-VLAN routing, dynamic DHCP distribution, and security access controls using standard and extended ACLs.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Packet Tracer</span>
+                <span class="timeline-tag">VLAN</span>
+                <span class="timeline-tag">Static Routing</span>
+                <span class="timeline-tag">ACL</span>
+                <span class="timeline-tag">NAT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: Cisco Networking Practice -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Cisco Networking Practice</h3>
+                <span class="timeline-badge">Hands-On Practice</span>
+              </div>
+              <div class="timeline-org">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                <span>Cisco IOS CLI &amp; Device Configuration</span>
+              </div>
+              <p class="timeline-desc">
+                Continuous CLI practice on Cisco switches and routers. Configured IP parameters, verified interface operational states via Cisco IOS commands, diagnosed connectivity faults using ping and traceroute, and resolved topology misconfigurations.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Cisco IOS</span>
+                <span class="timeline-tag">CLI Configuration</span>
+                <span class="timeline-tag">Troubleshooting</span>
+                <span class="timeline-tag">Subnetting</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3: NTI Networking / CCNA Training -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">NTI Networking / CCNA Training</h3>
+                <span class="timeline-badge training">1 Month Intensive Training</span>
+              </div>
+              <div class="timeline-org">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                <span>National Telecommunication Institute (NTI)</span>
+              </div>
+              <p class="timeline-desc">
+                Completed an intensive one-month practical networking training program organized by the National Telecommunication Institute (NTI), focusing on CCNA networking principles, device configurations, and real-world networking scenarios.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">NTI Egypt</span>
+                <span class="timeline-tag">CCNA Curriculum</span>
+                <span class="timeline-tag">Hands-on Labs</span>
+                <span class="timeline-tag">Network Diagnostics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4: C++ Mini Projects -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">C++ Mini Projects</h3>
+                <span class="timeline-badge">Academic Practical Experience</span>
+              </div>
+              <div class="timeline-org">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Programming Fundamentals &amp; Problem Solving</span>
+              </div>
+              <p class="timeline-desc">
+                Developed modular console software in C++ including student, bank, and library management systems. Strengthened understanding of Object-Oriented Programming (OOP), pointers, data structures, and algorithmic logic.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">C++</span>
+                <span class="timeline-tag">OOP</span>
+                <span class="timeline-tag">Data Structures</span>
+                <span class="timeline-tag">Algorithms</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 5: Python Mini Projects -->
+          <div class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-title">Python Mini Projects</h3>
+                <span class="timeline-badge">Academic Practical Experience</span>
+              </div>
+              <div class="timeline-org">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path></svg>
+                <span>Practical Scripting &amp; Application Logic</span>
+              </div>
+              <p class="timeline-desc">
+                Built Python-based utilities including a grade management system and user registration/login module. Practiced file handling, structured data storage, input validation, and code modularization.
+              </p>
+              <div class="timeline-tags">
+                <span class="timeline-tag">Python</span>
+                <span class="timeline-tag">Scripting</span>
+                <span class="timeline-tag">Authentication Logic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         7. CERTIFICATIONS & EDUCATION SECTION
+         ======================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            <span>Credentials &amp; Academics</span>
+          </div>
+          <h2 class="section-title">Certifications &amp; <span>Education</span></h2>
+          <p class="section-subtitle">
+            Formal technical certifications, specialized institute training, and university academic qualifications.
+          </p>
+        </div>
+
+        <div class="cert-edu-grid">
+          <!-- Certifications & Training Column -->
+          <div class="reveal">
+            <div class="column-header">
+              <div class="column-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+              </div>
+              <h3 class="column-title">Certifications &amp; Training</h3>
+            </div>
+
+            <div class="cert-cards-stack">
+              <!-- Cisco CCNA -->
+              <div class="cert-card featured-cert">
+                <div class="cert-top">
+                  <div>
+                    <h4 class="cert-name">Cisco CCNA</h4>
+                    <div class="cert-issuer">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect></svg>
+                      <span>Cisco Systems</span>
+                    </div>
+                  </div>
+                  <span class="timeline-badge">Major Milestone</span>
+                </div>
+                <p class="cert-desc">
+                  Comprehensive foundational certification validating essential competencies in network fundamentals, network access, IP connectivity, IP services, and security fundamentals.
+                </p>
+                <div class="cert-meta-row">
+                  <div class="cert-meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>CCNA Certified / Knowledge Base</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- NTI Training -->
+              <div class="cert-card">
+                <div class="cert-top">
+                  <div>
+                    <h4 class="cert-name">Networking / CCNA Training</h4>
+                    <div class="cert-issuer">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                      <span>National Telecommunication Institute (NTI)</span>
+                    </div>
+                  </div>
+                  <span class="timeline-badge training">Completed</span>
+                </div>
+                <p class="cert-desc">
+                  One-month intensive practical networking program focusing on real-world switch and router configurations, IP addressing, and hands-on laboratory troubleshooting.
+                </p>
+                <div class="cert-meta-row">
+                  <div class="cert-meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>Duration: 1 Month</span>
+                  </div>
+                  <div class="cert-meta-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Practical Training</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Column -->
+          <div class="reveal">
+            <div class="column-header">
+              <div class="column-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h3 class="column-title">University Education</h3>
+            </div>
+
+            <div class="edu-card">
+              <div class="edu-header">
+                <div>
+                  <h4 class="edu-institution">Benha University</h4>
+                  <div class="edu-faculty">Faculty of Computers and Artificial Intelligence</div>
+                </div>
+              </div>
+
+              <div class="edu-dept-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Department: Scientific Computing (SC)</span>
+              </div>
+
+              <div class="edu-details-list">
+                <div class="edu-detail-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Academic Level: <strong>Fourth Year</strong></span>
+                </div>
+                <div class="edu-detail-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                  <span>Expected Graduation: <strong>2027</strong></span>
+                </div>
+                <div class="edu-detail-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Curriculum: <strong>Computing Principles, Algorithms, Data Structures, &amp; Networking</strong></span>
+                </div>
+              </div>
+
+              <p class="cert-desc" style="margin-top: 4px;">
+                Rigorous university program bridging computational mathematics, scientific analysis, and core computer science fundamentals with a primary self-directed concentration on networking infrastructure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. CAREER OBJECTIVE SECTION
+         ======================================================================= -->
+    <section class="section section-alt" id="objective">
+      <div class="container objective-container">
+        <div class="objective-card reveal">
+          <div class="objective-icon-wrapper">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+          </div>
+
+          <div class="section-tag" style="margin-bottom: 20px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            <span>Career Objective</span>
+          </div>
+
+          <blockquote class="objective-quote">
+            &ldquo;My goal is to start my career in Network Support, build strong practical experience in network configuration, routing, and troubleshooting, and continue developing my networking knowledge through advanced certifications such as CCNP.&rdquo;
+          </blockquote>
+
+          <div class="objective-pillars">
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Immediate Goal</span>
+              </div>
+              <p class="pillar-text">
+                Begin in an entry-level Network Support Engineer role to handle live incident troubleshooting and device maintenance.
+              </p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                <span>Practical Growth</span>
+              </div>
+              <p class="pillar-text">
+                Strengthen daily hands-on proficiency with routing protocols, VLAN architecture, and network security policies.
+              </p>
+            </div>
+
+            <div class="pillar-item">
+              <div class="pillar-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <span>Long-Term Ambition</span>
+              </div>
+              <p class="pillar-text">
+                Advance education towards Cisco CCNP certification and specialize in enterprise infrastructure engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. CONTACT SECTION
+         ======================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Contact <span>Me</span></h2>
+          <p class="section-subtitle">
+            Open for Network Support opportunities, entry-level engineering discussions, and academic networking inquiries.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Information -->
+          <div class="contact-info-col reveal">
+            <!-- Email Card -->
+            <div class="contact-card-direct">
+              <div class="contact-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Email Address</div>
+                <a href="mailto:Mohamedsanediphon@gmail.com" class="contact-val">Mohamedsanediphon@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-clipboard="Mohamedsanediphon@gmail.com" aria-label="Copy email address" title="Copy to clipboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card-direct">
+              <div class="contact-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Phone Number</div>
+                <a href="tel:01159634234" class="contact-val">01159634234</a>
+              </div>
+              <button class="copy-btn" data-clipboard="01159634234" aria-label="Copy phone number" title="Copy to clipboard">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <!-- Verified Social Connect (LinkedIn Only - Strictly No Fake Accounts) -->
+            <div class="contact-social-card">
+              <div class="social-card-title">Professional Network Profile</div>
+              <div class="social-links-list">
+                <a href="https://www.linkedin.com/in/mohamed-saned-66a048357" target="_blank" rel="noopener noreferrer" class="social-btn-verified" aria-label="Visit Mohamed Sanad's LinkedIn Profile">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                  <span>Connect on LinkedIn</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 14px; height: 14px; margin-left: 2px;">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML Contact Form -->
+          <div class="contact-form-card reveal">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" required placeholder="e.g. John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" required placeholder="e.g. john@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message / Inquiry</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" required placeholder="Inquire about networking labs, support roles, or professional collaboration..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       10. FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px; color: var(--accent-primary);">
+            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+          </svg>
+          <span>Mohamed El-Sayed Mohamed Sanad</span>
+        </div>
+
+        <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to top</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mohamed El-Sayed Mohamed Sanad. All rights reserved.</p>
+        <p class="footer-tech">Aspiring Network Support Engineer &bull; CCNA &bull; Benha University</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       PROJECT REQUEST MODAL (Accessible Dialog)
+       ========================================================================= -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close modal window">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Project Details</h3>
+        <p class="modal-subtitle" id="modal-subtitle">Available Upon Request</p>
+      </div>
+
+      <div class="modal-body" id="modal-body">
+        <!-- Dynamic project details injected by JavaScript -->
+      </div>
+
+      <div class="modal-actions">
+        <a href="mailto:Mohamedsanediphon@gmail.com?subject=Project%20Files%20Request%20-%20Mohamed%20Sanad%20Portfolio" class="btn btn-primary" id="modal-email-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <span>Request via Email</span>
+        </a>
+        <a href="https://www.linkedin.com/in/mohamed-saned-66a048357" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <span>Connect on LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toast-notice" role="alert" aria-live="assertive">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-text">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
